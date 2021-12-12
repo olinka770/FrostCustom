@@ -1,0 +1,314 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: -1;
+}
+.additional-text {
+	font-size: 1.8rem;
+}
+
+.top-hero {
+	position: relative;
+	height: 20rem;
+	background-size: cover;
+	z-index: 0;
+}
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+}
+.blue-color {
+	color: rgb(94, 187, 182);
+}
+.grey-color {
+	color: rgba(212, 219, 219, 0.7);
+}
+
+/* -------------- */
+/*    navigation   */
+/* -------------- */
+nav {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	font-size: 3rem;
+}
+
+.navbar-brand {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: none;
+}
+/* -------------- */
+/*    header   */
+/* -------------- */
+header {
+	font-size: 2rem;
+}
+.carousel-item {
+	position: relative;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.carousel-img-one {
+	background-image: url("../img/c3.jpg");
+}
+.carousel-img-two {
+	background-image: url("../img/auto2.jpg");
+}
+.carousel-img-three {
+	background-image: url("../img/auto-gddaae0ae3_1920.jpg");
+}
+
+/*--------------------*/
+/*     home           */
+/*--------------------*/
+
+.home-boxes {
+	padding: 5em 0;
+}
+.home-box i {
+	font-size: 4rem;
+}
+.home-box h3 {
+	font-size: 2.6rem;
+}
+/*--------------------*/
+
+.home-passion {
+	position: relative;
+	height: 350px;
+	background-image: url("../img/aboutus/kokpit.jpg");
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+/*--------------------*/
+.home-brand h3 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+/*--------------------*/
+/*       aboutus      */
+/*--------------------*/
+
+.aboutus-hero {
+	background-image: url("../img/aboutus/swiatla.jpg");
+	background-position: bottom;
+}
+.aboutus-info {
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+	padding: 2em 0.5em;
+}
+.aboutus-text {
+	padding: 1.8em;
+}
+.aboutus-text h3 {
+	margin-bottom: 0.5em;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline rgb(94, 187, 182);
+}
+.aboutus-text-right {
+	text-align: right;
+}
+.aboutus-img {
+	height: 300px;
+	background: url("../img/aboutus/engine.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.aboutus-bottom i {
+	font-size: 3rem;
+}
+.aboutus-bottom h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+/*--------------------*/
+/*       Services      */
+/*--------------------*/
+.service-hero {
+	background-image: url("../img/c2.hq.jpg");
+	background-position: 0 50%;
+}
+/*--------------------*/
+
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+.service-hero-box p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+.service-pricing .box-one {
+	background-image: url("../img/services/sam1.jpg");
+}
+.service-pricing .box-two {
+	background-image: url("../img/services/sam2.jpg");
+}
+.service-pricing .box-three {
+	background-image: url("../img/services/sam5.jpg");
+}
+.service-pricing .box-four {
+	background-image: url("../img/services/sam6.jpg");
+}
+.service-pricing .card-header {
+	font-size: 2rem;
+	cursor: pointer;
+}
+.service-pricing h3 {
+	font-weight: bold;
+}
+.service-pricing .btn {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+/*--------------------*/
+/*       Contact      */
+/*--------------------*/
+
+.contact-hero {
+	background-image: url("../img/c1.hq.jpg");
+	background-position: 0 75%;
+}
+.contact h2,
+.contact h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.contact h2 {
+	font-size: 2.6rem;
+}
+.contact-logo {
+	font-size: 3rem;
+}
+.contact input,
+.contact select,
+.contact textarea {
+	font-size: 1.6rem;
+}
+.contact .btn {
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
+
+/*--------------------*/
+/*       projects     */
+/*--------------------*/
+
+.projects-hero {
+	background-image: url("../img/projects/car12.jpg");
+	background-position: 0 25%;
+}
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+.projects .btn {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+/*--------------------*/
+/*       footer       */
+/*--------------------*/
+
+footer {
+	font-size: 1.6rem;
+}
+
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+	}
+	.aboutus-text {
+		padding: 5em 0;
+		transform: skew(-15deg);
+	}
+	.aboutus-text-left {
+		padding-left: 2em;
+		text-align: left;
+	}
+	.aboutus-text-right {
+		padding-right: 2em;
+		text-align: right;
+	}
+	.aboutus-img {
+		height: auto;
+		transform: skew(-15deg);
+	}
+}
+
+@media (min-width: 1400px) {
+	.carousel-item {
+		height: 600px;
+	}
+}
+
+.carousel-img-one {
+	background-image: url("../img/c2.hq.jpg");
+}
+.carousel-img-two {
+	background-image: url("../img/auto2.hg.jpg");
+}
+.carousel-img-three {
+	background-image: url("../img/auto-gddaae0ae3_1920.jpg");
+}
+.bg-secondary {
+	color: rgba(0, 0, 0, 0.03);
+}
+.accordion-button::after {
+	order: -1;
+	margin-left: 0;
+	margin-right: 0.5em;
+	background-color: white;
+}
